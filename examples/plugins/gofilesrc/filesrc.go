@@ -22,7 +22,7 @@
 // +plugin:License=gst.LicenseLGPL
 // +plugin:Source=go-gst
 // +plugin:Package=examples
-// +plugin:Origin=https://github.com/tinyzimmer/go-gst
+// +plugin:Origin=https://github.com/clintlombard/go-gst
 // +plugin:ReleaseDate=2021-01-04
 //
 // +element:Name=gofilesrc
@@ -40,9 +40,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/tinyzimmer/go-glib/glib"
-	"github.com/tinyzimmer/go-gst/gst"
-	"github.com/tinyzimmer/go-gst/gst/base"
+	"github.com/clintlombard/go-glib/glib"
+	"github.com/clintlombard/go-gst/gst"
+	"github.com/clintlombard/go-gst/gst/base"
 )
 
 // main is left unimplemented since these files are compiled to c-shared.

@@ -39,7 +39,7 @@ import (
 	"unsafe"
 
 	gopointer "github.com/mattn/go-pointer"
-	"github.com/tinyzimmer/go-glib/glib"
+	"github.com/clintlombard/go-glib/glib"
 )
 
 // Element is a Go wrapper around a GstElement.

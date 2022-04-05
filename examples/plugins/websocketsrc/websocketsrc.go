@@ -15,7 +15,7 @@
 // +plugin:License=gst.LicenseLGPL
 // +plugin:Source=go-gst
 // +plugin:Package=examples
-// +plugin:Origin=https://github.com/tinyzimmer/go-gst
+// +plugin:Origin=https://github.com/clintlombard/go-gst
 // +plugin:ReleaseDate=2021-01-10
 //
 // +element:Name=websocketsrc
@@ -31,8 +31,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tinyzimmer/go-glib/glib"
-	"github.com/tinyzimmer/go-gst/gst"
+	"github.com/clintlombard/go-glib/glib"
+	"github.com/clintlombard/go-gst/gst"
 	"golang.org/x/net/websocket"
 )
 

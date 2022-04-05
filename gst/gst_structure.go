@@ -21,7 +21,7 @@ import (
 	"unsafe"
 
 	gopointer "github.com/mattn/go-pointer"
-	"github.com/tinyzimmer/go-glib/glib"
+	"github.com/clintlombard/go-glib/glib"
 )
 
 // Structure is a go implementation of a C GstStructure.

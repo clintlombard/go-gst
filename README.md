@@ -2,12 +2,12 @@
 
 Go bindings for the GStreamer C libraries
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-rounded)](https://pkg.go.dev/github.com/tinyzimmer/go-gst)
-[![godoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/tinyzimmer/go-gst)
-[![GoReportCard](https://goreportcard.com/badge/github.com/nanomsg/mangos)](https://goreportcard.com/report/github.com/tinyzimmer/go-gst)
-![](https://github.com/tinyzimmer/go-gst/workflows/Tests/badge.svg)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-rounded)](https://pkg.go.dev/github.com/clintlombard/go-gst)
+[![godoc reference](https://img.shields.io/badge/godoc-reference-blue.svg)](https://godoc.org/github.com/clintlombard/go-gst)
+[![GoReportCard](https://goreportcard.com/badge/github.com/nanomsg/mangos)](https://goreportcard.com/report/github.com/clintlombard/go-gst)
+![](https://github.com/clintlombard/go-gst/workflows/Tests/badge.svg)
 
-See the [godoc.org](https://godoc.org/github.com/tinyzimmer/go-gst) or [pkg.go.dev](https://pkg.go.dev/github.com/tinyzimmer/go-gst) references for documentation and examples.
+See the [godoc.org](https://godoc.org/github.com/clintlombard/go-gst) or [pkg.go.dev](https://pkg.go.dev/github.com/tinyzimmer/go-gst) references for documentation and examples.
 As the latter requires published tags, see godoc.org for the latest documentation of master at any point in time.
 
 **This library has not been thoroughly tested and as such is not recommended for mission critical applications yet. If you'd like to try it out and encounter any bugs, feel free to open an Issue or PR. For more information see the [Contributing](#contributing) section.**
@@ -40,7 +40,7 @@ PS> $env:PKG_CONFIG_PATH='C:\gstreamer\1.0\mingw_x86_64\lib\pkgconfig'
 PS> go build .
 ```
 
-For more information, take a look at [this comment](https://github.com/tinyzimmer/go-gst/issues/3#issuecomment-760648278) with a good run down of the process from compilation to execution.
+For more information, take a look at [this comment](https://github.com/clintlombard/go-gst/issues/3#issuecomment-760648278) with a good run down of the process from compilation to execution.
 
 ## Quickstart
 
@@ -56,8 +56,8 @@ import (
     "os"
     "strings"
 
-    "github.com/tinyzimmer/go-glib/glib"
-    "github.com/tinyzimmer/go-gst/gst"
+    "github.com/clintlombard/go-glib/glib"
+    "github.com/clintlombard/go-gst/gst"
 )
 
 func main() {

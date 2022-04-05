@@ -1,4 +1,4 @@
+github.com/clintlombard/go-glib v0.0.25-0.20220330103317-7a58fc723731 h1:0mcybPGw+pP7NnOqqpUQSutmIDZ9JZRHAb17VFfE+Zg=
+github.com/clintlombard/go-glib v0.0.25-0.20220330103317-7a58fc723731/go.mod h1:cZcCxiYiIRLHR1Kva8lQFbht30dCpn/Kzsh5/321+ng=
 github.com/mattn/go-pointer v0.0.1 h1:n+XhsuGeVO6MEAp7xyEukFINEa+Quek5psIR/ylA6o0=
 github.com/mattn/go-pointer v0.0.1/go.mod h1:2zXcozF6qYGgmsG+SeTZz3oAbFLdD3OWqnUbNvJZAlc=
-github.com/tinyzimmer/go-glib v0.0.24 h1:ktZZC22/9t88kGRgNEFV/SESgIWhGHE+q7Z7Qj++luw=
-github.com/tinyzimmer/go-glib v0.0.24/go.mod h1:ltV0gO6xNFzZhsIRbFXv8RTq9NGoNT2dmAER4YmZfaM=

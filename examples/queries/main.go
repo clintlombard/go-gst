@@ -20,9 +20,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/tinyzimmer/go-glib/glib"
-	"github.com/tinyzimmer/go-gst/examples"
-	"github.com/tinyzimmer/go-gst/gst"
+	"github.com/clintlombard/go-glib/glib"
+	"github.com/clintlombard/go-gst/examples"
+	"github.com/clintlombard/go-gst/gst"
 )
 
 func queries(mainLoop *glib.MainLoop) error {

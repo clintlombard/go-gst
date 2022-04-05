@@ -6,7 +6,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/tinyzimmer/go-glib/glib"
+	"github.com/clintlombard/go-glib/glib"
 )
 
 // Stream is a Go representation of a GstStream.

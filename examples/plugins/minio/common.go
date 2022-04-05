@@ -10,8 +10,8 @@ import (
 
 	minio "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/tinyzimmer/go-glib/glib"
-	"github.com/tinyzimmer/go-gst/gst"
+	"github.com/clintlombard/go-glib/glib"
+	"github.com/clintlombard/go-gst/gst"
 )
 
 const (

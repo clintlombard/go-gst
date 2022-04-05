@@ -21,7 +21,7 @@ import "C"
 import (
 	"unsafe"
 
-	"github.com/tinyzimmer/go-glib/glib"
+	"github.com/clintlombard/go-glib/glib"
 )
 
 // InterfaceChildProxy represents the GstChildProxy interface. Use this when querying bins

@@ -6,8 +6,8 @@ package base
 import "C"
 
 import (
-	"github.com/tinyzimmer/go-glib/glib"
-	"github.com/tinyzimmer/go-gst/gst"
+	"github.com/clintlombard/go-glib/glib"
+	"github.com/clintlombard/go-gst/gst"
 )
 
 // GstPushSrc represents a GstBaseSrc.
