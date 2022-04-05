@@ -1,5 +1,9 @@
 # go-gst
 
+**Note that this is a fork of https://github.com/tinyzimmer/go-gst to
+incorporate fixes to GLib.**
+
+
 Go bindings for the GStreamer C libraries
 
 [![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-rounded)](https://pkg.go.dev/github.com/clintlombard/go-gst)
