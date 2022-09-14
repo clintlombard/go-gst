@@ -86,9 +86,9 @@ func (m *Message) GetStructure() *Structure {
 		C.gst_message_parse_warning_details((*C.GstMessage)(m.Instance()), (**C.GstStructure)(unsafe.Pointer(&st)))
 	}
 
-	// if no structure was returned, immediately return nil
+	// if no structure was returned, return the raw structure
 	if st == nil {
-		return nil
+		st = C.gst_message_get_structure((*C.GstMessage)(m.Instance()))
 	}
 
 	// The returned structure must not be freed. Applies to all methods.
